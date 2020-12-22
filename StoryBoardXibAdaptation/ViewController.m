@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property(nonatomic,weak)IBOutlet UILabel *notelabel;
+
 @end
 
 @implementation ViewController
@@ -20,6 +22,16 @@
     
     MTMobileDeviceType type = [MTMobileDevice deviceType];
     NSLog(@"type --- %lu",(unsigned long)type);
+    
+    NSLog(@"%@",self.notelabel.font);
+    
+//    UILabel *testLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.notelabel.frame) + 100, self.view.bounds.size.width, 50)];
+//    testLabel.textAlignment = NSTextAlignmentCenter;
+//    testLabel.text = @"字体适配";
+//    [self.view addSubview:testLabel];
+//
+//    NSLog(@"test font -- %@",testLabel.font);
+    
 }
 
 
