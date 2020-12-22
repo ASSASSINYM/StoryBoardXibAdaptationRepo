@@ -18,6 +18,12 @@
 		652C23F4258C5EB1001E538A /* StoryBoardXibAdaptationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C23F3258C5EB1001E538A /* StoryBoardXibAdaptationTests.m */; };
 		652C23FF258C5EB1001E538A /* StoryBoardXibAdaptationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C23FE258C5EB1001E538A /* StoryBoardXibAdaptationUITests.m */; };
 		652C2411258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C2410258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.m */; };
+		65A3FEA52591D4B500CD877B /* NSObject+MTSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEA42591D4B500CD877B /* NSObject+MTSwizzle.m */; };
+		65A3FEAE2591D55200CD877B /* UIButton+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEAD2591D55200CD877B /* UIButton+FontFit.m */; };
+		65A3FEB42591D64500CD877B /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEB32591D64500CD877B /* UIFont+Font.m */; };
+		65A3FEBA2591D6BE00CD877B /* UILabel+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEB92591D6BE00CD877B /* UILabel+FontFit.m */; };
+		65A3FEC02591D70A00CD877B /* UITextField+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEBF2591D70A00CD877B /* UITextField+FontFit.m */; };
+		65A3FEC62591D75C00CD877B /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEC52591D75C00CD877B /* UITextView+FontFit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,18 @@
 		652C2400258C5EB1001E538A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652C240F258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+IBAdapter.h"; sourceTree = "<group>"; };
 		652C2410258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+IBAdapter.m"; sourceTree = "<group>"; };
+		65A3FEA32591D4B500CD877B /* NSObject+MTSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTSwizzle.h"; sourceTree = "<group>"; };
+		65A3FEA42591D4B500CD877B /* NSObject+MTSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTSwizzle.m"; sourceTree = "<group>"; };
+		65A3FEAC2591D55200CD877B /* UIButton+FontFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FontFit.h"; sourceTree = "<group>"; };
+		65A3FEAD2591D55200CD877B /* UIButton+FontFit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FontFit.m"; sourceTree = "<group>"; };
+		65A3FEB22591D64500CD877B /* UIFont+Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Font.h"; sourceTree = "<group>"; };
+		65A3FEB32591D64500CD877B /* UIFont+Font.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Font.m"; sourceTree = "<group>"; };
+		65A3FEB82591D6BE00CD877B /* UILabel+FontFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+FontFit.h"; sourceTree = "<group>"; };
+		65A3FEB92591D6BE00CD877B /* UILabel+FontFit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FontFit.m"; sourceTree = "<group>"; };
+		65A3FEBE2591D70A00CD877B /* UITextField+FontFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+FontFit.h"; sourceTree = "<group>"; };
+		65A3FEBF2591D70A00CD877B /* UITextField+FontFit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FontFit.m"; sourceTree = "<group>"; };
+		65A3FEC42591D75C00CD877B /* UITextView+FontFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+FontFit.h"; sourceTree = "<group>"; };
+		65A3FEC52591D75C00CD877B /* UITextView+FontFit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FontFit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,7 @@
 		652C23D6258C5EAE001E538A /* StoryBoardXibAdaptation */ = {
 			isa = PBXGroup;
 			children = (
+				65A3FEA22591D44800CD877B /* 字体适配 */,
 				652C23D7258C5EAE001E538A /* AppDelegate.h */,
 				652C23D8258C5EAE001E538A /* AppDelegate.m */,
 				652C23DA258C5EAE001E538A /* SceneDelegate.h */,
@@ -145,6 +164,25 @@
 				652C2400258C5EB1001E538A /* Info.plist */,
 			);
 			path = StoryBoardXibAdaptationUITests;
+			sourceTree = "<group>";
+		};
+		65A3FEA22591D44800CD877B /* 字体适配 */ = {
+			isa = PBXGroup;
+			children = (
+				65A3FEA32591D4B500CD877B /* NSObject+MTSwizzle.h */,
+				65A3FEA42591D4B500CD877B /* NSObject+MTSwizzle.m */,
+				65A3FEAC2591D55200CD877B /* UIButton+FontFit.h */,
+				65A3FEAD2591D55200CD877B /* UIButton+FontFit.m */,
+				65A3FEB22591D64500CD877B /* UIFont+Font.h */,
+				65A3FEB32591D64500CD877B /* UIFont+Font.m */,
+				65A3FEB82591D6BE00CD877B /* UILabel+FontFit.h */,
+				65A3FEB92591D6BE00CD877B /* UILabel+FontFit.m */,
+				65A3FEBE2591D70A00CD877B /* UITextField+FontFit.h */,
+				65A3FEBF2591D70A00CD877B /* UITextField+FontFit.m */,
+				65A3FEC42591D75C00CD877B /* UITextView+FontFit.h */,
+				65A3FEC52591D75C00CD877B /* UITextView+FontFit.m */,
+			);
+			path = "字体适配";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +318,14 @@
 				652C23DF258C5EAE001E538A /* ViewController.m in Sources */,
 				652C23D9258C5EAE001E538A /* AppDelegate.m in Sources */,
 				652C23EA258C5EB1001E538A /* main.m in Sources */,
+				65A3FEAE2591D55200CD877B /* UIButton+FontFit.m in Sources */,
+				65A3FEA52591D4B500CD877B /* NSObject+MTSwizzle.m in Sources */,
 				65029FF42591A0D200AF2DED /* MTMobileDevice.m in Sources */,
+				65A3FEB42591D64500CD877B /* UIFont+Font.m in Sources */,
 				652C23DC258C5EAE001E538A /* SceneDelegate.m in Sources */,
+				65A3FEBA2591D6BE00CD877B /* UILabel+FontFit.m in Sources */,
+				65A3FEC62591D75C00CD877B /* UITextView+FontFit.m in Sources */,
+				65A3FEC02591D70A00CD877B /* UITextField+FontFit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
