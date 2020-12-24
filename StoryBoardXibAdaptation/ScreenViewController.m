@@ -7,6 +7,7 @@
 
 #import "ScreenViewController.h"
 #import "UIView+AdaptScreen.h"
+#import "MTPrivacyViewController.h"
 
 #define MTRealValue(value) ((value)/414.0f*[UIScreen mainScreen].bounds.size.width)
 
@@ -33,14 +34,12 @@
     NSLog(@"%@",[NSValue valueWithCGRect:self.testLabel.frame]);
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - action
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(IBAction)nextStep:(id)sender {
+    
+    MTPrivacyViewController *privacy = [[MTPrivacyViewController alloc] initWithNibName:@"MTPrivacyViewController" bundle:nil];
+    [self.navigationController pushViewController:privacy animated:YES];
 }
-*/
 
 @end

@@ -26,6 +26,13 @@
 		65A3FEC62591D75C00CD877B /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEC52591D75C00CD877B /* UITextView+FontFit.m */; };
 		65A3FED02591DF6800CD877B /* ScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FECF2591DF6800CD877B /* ScreenViewController.m */; };
 		65A3FED82591E2EB00CD877B /* UIView+AdaptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FED72591E2EB00CD877B /* UIView+AdaptScreen.m */; };
+		65F98ECB25949C1E000A6D8D /* MTPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F98EC825949C1D000A6D8D /* MTPrivacyViewController.m */; };
+		65F98ECC25949C1E000A6D8D /* MTPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F98ECA25949C1E000A6D8D /* MTPrivacyViewController.xib */; };
+		65F98ED225949F89000A6D8D /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F98ED025949F89000A6D8D /* logo.jpg */; };
+		65F98ED325949F89000A6D8D /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F98ED125949F89000A6D8D /* banner.jpg */; };
+		65F98EE12594A12D000A6D8D /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F98EE02594A12D000A6D8D /* head.jpg */; };
+		65F98EE72594A213000A6D8D /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F98EE62594A213000A6D8D /* MTTableViewCell.m */; };
+		65F98EF32594A2BE000A6D8D /* FuckTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F98EF22594A2BE000A6D8D /* FuckTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +91,16 @@
 		65A3FECF2591DF6800CD877B /* ScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenViewController.m; sourceTree = "<group>"; };
 		65A3FED62591E2EB00CD877B /* UIView+AdaptScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AdaptScreen.h"; sourceTree = "<group>"; };
 		65A3FED72591E2EB00CD877B /* UIView+AdaptScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdaptScreen.m"; sourceTree = "<group>"; };
+		65F98EC825949C1D000A6D8D /* MTPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPrivacyViewController.m; sourceTree = "<group>"; };
+		65F98EC925949C1E000A6D8D /* MTPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPrivacyViewController.h; sourceTree = "<group>"; };
+		65F98ECA25949C1E000A6D8D /* MTPrivacyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTPrivacyViewController.xib; sourceTree = "<group>"; };
+		65F98ED025949F89000A6D8D /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		65F98ED125949F89000A6D8D /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		65F98EE02594A12D000A6D8D /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		65F98EE52594A213000A6D8D /* MTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTableViewCell.h; sourceTree = "<group>"; };
+		65F98EE62594A213000A6D8D /* MTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTableViewCell.m; sourceTree = "<group>"; };
+		65F98EF12594A2BE000A6D8D /* FuckTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckTableViewController.h; sourceTree = "<group>"; };
+		65F98EF22594A2BE000A6D8D /* FuckTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +157,9 @@
 				652C23D8258C5EAE001E538A /* AppDelegate.m */,
 				652C23DA258C5EAE001E538A /* SceneDelegate.h */,
 				652C23DB258C5EAE001E538A /* SceneDelegate.m */,
+				65F98ED125949F89000A6D8D /* banner.jpg */,
+				65F98ED025949F89000A6D8D /* logo.jpg */,
+				65F98EE02594A12D000A6D8D /* head.jpg */,
 				652C23DD258C5EAE001E538A /* ViewController.h */,
 				652C23DE258C5EAE001E538A /* ViewController.m */,
 				652C23E0258C5EAE001E538A /* Main.storyboard */,
@@ -153,6 +173,13 @@
 				65029FF32591A0D200AF2DED /* MTMobileDevice.m */,
 				65A3FECE2591DF6800CD877B /* ScreenViewController.h */,
 				65A3FECF2591DF6800CD877B /* ScreenViewController.m */,
+				65F98EC925949C1E000A6D8D /* MTPrivacyViewController.h */,
+				65F98EC825949C1D000A6D8D /* MTPrivacyViewController.m */,
+				65F98ECA25949C1E000A6D8D /* MTPrivacyViewController.xib */,
+				65F98EE52594A213000A6D8D /* MTTableViewCell.h */,
+				65F98EE62594A213000A6D8D /* MTTableViewCell.m */,
+				65F98EF12594A2BE000A6D8D /* FuckTableViewController.h */,
+				65F98EF22594A2BE000A6D8D /* FuckTableViewController.m */,
 			);
 			path = StoryBoardXibAdaptation;
 			sourceTree = "<group>";
@@ -305,9 +332,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F98ED225949F89000A6D8D /* logo.jpg in Resources */,
 				652C23E7258C5EB1001E538A /* LaunchScreen.storyboard in Resources */,
 				652C23E4258C5EB1001E538A /* Assets.xcassets in Resources */,
+				65F98ECC25949C1E000A6D8D /* MTPrivacyViewController.xib in Resources */,
 				652C23E2258C5EAE001E538A /* Main.storyboard in Resources */,
+				65F98EE12594A12D000A6D8D /* head.jpg in Resources */,
+				65F98ED325949F89000A6D8D /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				652C2411258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.m in Sources */,
+				65F98EE72594A213000A6D8D /* MTTableViewCell.m in Sources */,
 				652C23DF258C5EAE001E538A /* ViewController.m in Sources */,
 				652C23D9258C5EAE001E538A /* AppDelegate.m in Sources */,
 				65A3FED82591E2EB00CD877B /* UIView+AdaptScreen.m in Sources */,
@@ -340,7 +372,9 @@
 				65A3FEAE2591D55200CD877B /* UIButton+FontFit.m in Sources */,
 				65A3FEA52591D4B500CD877B /* NSObject+MTSwizzle.m in Sources */,
 				65029FF42591A0D200AF2DED /* MTMobileDevice.m in Sources */,
+				65F98ECB25949C1E000A6D8D /* MTPrivacyViewController.m in Sources */,
 				65A3FEB42591D64500CD877B /* UIFont+Font.m in Sources */,
+				65F98EF32594A2BE000A6D8D /* FuckTableViewController.m in Sources */,
 				652C23DC258C5EAE001E538A /* SceneDelegate.m in Sources */,
 				65A3FED02591DF6800CD877B /* ScreenViewController.m in Sources */,
 				65A3FEBA2591D6BE00CD877B /* UILabel+FontFit.m in Sources */,
