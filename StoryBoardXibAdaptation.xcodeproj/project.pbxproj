@@ -26,6 +26,14 @@
 		65A3FEC62591D75C00CD877B /* UITextView+FontFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEC52591D75C00CD877B /* UITextView+FontFit.m */; };
 		65A3FED02591DF6800CD877B /* ScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FECF2591DF6800CD877B /* ScreenViewController.m */; };
 		65A3FED82591E2EB00CD877B /* UIView+AdaptScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FED72591E2EB00CD877B /* UIView+AdaptScreen.m */; };
+		65D2B56A259B353300073202 /* MTSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2B569259B353300073202 /* MTSB.storyboard */; };
+		65D2B577259B368A00073202 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2B576259B368A00073202 /* Home.storyboard */; };
+		65D2B57C259B369500073202 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2B57B259B369500073202 /* Message.storyboard */; };
+		65D2B581259B369F00073202 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2B580259B369F00073202 /* Mine.storyboard */; };
+		65D2B587259B36B900073202 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B586259B36B900073202 /* HomeViewController.m */; };
+		65D2B58D259B36C400073202 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B58C259B36C400073202 /* MessageViewController.m */; };
+		65D2B593259B36D100073202 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B592259B36D100073202 /* MineViewController.m */; };
+		65D2B599259B37EF00073202 /* MTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2B598259B37EF00073202 /* MTTabBarController.m */; };
 		65F98ECB25949C1E000A6D8D /* MTPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F98EC825949C1D000A6D8D /* MTPrivacyViewController.m */; };
 		65F98ECC25949C1E000A6D8D /* MTPrivacyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F98ECA25949C1E000A6D8D /* MTPrivacyViewController.xib */; };
 		65F98ED225949F89000A6D8D /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65F98ED025949F89000A6D8D /* logo.jpg */; };
@@ -91,6 +99,18 @@
 		65A3FECF2591DF6800CD877B /* ScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenViewController.m; sourceTree = "<group>"; };
 		65A3FED62591E2EB00CD877B /* UIView+AdaptScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AdaptScreen.h"; sourceTree = "<group>"; };
 		65A3FED72591E2EB00CD877B /* UIView+AdaptScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdaptScreen.m"; sourceTree = "<group>"; };
+		65D2B569259B353300073202 /* MTSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MTSB.storyboard; sourceTree = "<group>"; };
+		65D2B576259B368A00073202 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		65D2B57B259B369500073202 /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		65D2B580259B369F00073202 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		65D2B585259B36B900073202 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		65D2B586259B36B900073202 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		65D2B58B259B36C400073202 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		65D2B58C259B36C400073202 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		65D2B591259B36D100073202 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		65D2B592259B36D100073202 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		65D2B597259B37EF00073202 /* MTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTabBarController.h; sourceTree = "<group>"; };
+		65D2B598259B37EF00073202 /* MTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTabBarController.m; sourceTree = "<group>"; };
 		65F98EC825949C1D000A6D8D /* MTPrivacyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPrivacyViewController.m; sourceTree = "<group>"; };
 		65F98EC925949C1E000A6D8D /* MTPrivacyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPrivacyViewController.h; sourceTree = "<group>"; };
 		65F98ECA25949C1E000A6D8D /* MTPrivacyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTPrivacyViewController.xib; sourceTree = "<group>"; };
@@ -151,6 +171,10 @@
 		652C23D6258C5EAE001E538A /* StoryBoardXibAdaptation */ = {
 			isa = PBXGroup;
 			children = (
+				65D2B572259B363800073202 /* Mine */,
+				65D2B571259B362F00073202 /* Message */,
+				65D2B56F259B360200073202 /* Home */,
+				65D2B56E259B35EE00073202 /* MainTab */,
 				65A3FED52591E20700CD877B /* 屏幕适配 */,
 				65A3FEA22591D44800CD877B /* 字体适配 */,
 				652C23D7258C5EAE001E538A /* AppDelegate.h */,
@@ -228,6 +252,46 @@
 				65A3FED72591E2EB00CD877B /* UIView+AdaptScreen.m */,
 			);
 			path = "屏幕适配";
+			sourceTree = "<group>";
+		};
+		65D2B56E259B35EE00073202 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				65D2B569259B353300073202 /* MTSB.storyboard */,
+				65D2B597259B37EF00073202 /* MTTabBarController.h */,
+				65D2B598259B37EF00073202 /* MTTabBarController.m */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		65D2B56F259B360200073202 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65D2B576259B368A00073202 /* Home.storyboard */,
+				65D2B585259B36B900073202 /* HomeViewController.h */,
+				65D2B586259B36B900073202 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		65D2B571259B362F00073202 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				65D2B57B259B369500073202 /* Message.storyboard */,
+				65D2B58B259B36C400073202 /* MessageViewController.h */,
+				65D2B58C259B36C400073202 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		65D2B572259B363800073202 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				65D2B580259B369F00073202 /* Mine.storyboard */,
+				65D2B591259B36D100073202 /* MineViewController.h */,
+				65D2B592259B36D100073202 /* MineViewController.m */,
+			);
+			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,10 +396,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D2B581259B369F00073202 /* Mine.storyboard in Resources */,
 				65F98ED225949F89000A6D8D /* logo.jpg in Resources */,
 				652C23E7258C5EB1001E538A /* LaunchScreen.storyboard in Resources */,
+				65D2B57C259B369500073202 /* Message.storyboard in Resources */,
 				652C23E4258C5EB1001E538A /* Assets.xcassets in Resources */,
+				65D2B577259B368A00073202 /* Home.storyboard in Resources */,
 				65F98ECC25949C1E000A6D8D /* MTPrivacyViewController.xib in Resources */,
+				65D2B56A259B353300073202 /* MTSB.storyboard in Resources */,
 				652C23E2258C5EAE001E538A /* Main.storyboard in Resources */,
 				65F98EE12594A12D000A6D8D /* head.jpg in Resources */,
 				65F98ED325949F89000A6D8D /* banner.jpg in Resources */,
@@ -365,13 +433,17 @@
 			files = (
 				652C2411258C5FC0001E538A /* NSLayoutConstraint+IBAdapter.m in Sources */,
 				65F98EE72594A213000A6D8D /* MTTableViewCell.m in Sources */,
+				65D2B599259B37EF00073202 /* MTTabBarController.m in Sources */,
 				652C23DF258C5EAE001E538A /* ViewController.m in Sources */,
 				652C23D9258C5EAE001E538A /* AppDelegate.m in Sources */,
 				65A3FED82591E2EB00CD877B /* UIView+AdaptScreen.m in Sources */,
+				65D2B587259B36B900073202 /* HomeViewController.m in Sources */,
 				652C23EA258C5EB1001E538A /* main.m in Sources */,
+				65D2B593259B36D100073202 /* MineViewController.m in Sources */,
 				65A3FEAE2591D55200CD877B /* UIButton+FontFit.m in Sources */,
 				65A3FEA52591D4B500CD877B /* NSObject+MTSwizzle.m in Sources */,
 				65029FF42591A0D200AF2DED /* MTMobileDevice.m in Sources */,
+				65D2B58D259B36C400073202 /* MessageViewController.m in Sources */,
 				65F98ECB25949C1E000A6D8D /* MTPrivacyViewController.m in Sources */,
 				65A3FEB42591D64500CD877B /* UIFont+Font.m in Sources */,
 				65F98EF32594A2BE000A6D8D /* FuckTableViewController.m in Sources */,
@@ -485,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -538,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

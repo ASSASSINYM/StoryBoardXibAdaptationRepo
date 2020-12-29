@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y00-Bn-Vek">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Message View Controller-->
+        <scene sceneID="tjH-eM-IIv">
+            <objects>
+                <viewController storyboardIdentifier="MessageViewController" id="mB1-6Y-oH5" customClass="MessageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="INX-Cx-xAX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUI-ia-0Ge">
+                                <rect key="frame" x="20" y="130" width="374" height="385.5"/>
+                                <mutableString key="text">很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章很有意思的文章</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lAW-uI-w1t"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lAW-uI-w1t" firstAttribute="trailing" secondItem="gUI-ia-0Ge" secondAttribute="trailing" constant="20" id="551-Ga-v8H"/>
+                            <constraint firstItem="gUI-ia-0Ge" firstAttribute="leading" secondItem="lAW-uI-w1t" secondAttribute="leading" constant="20" id="VA3-B1-XTJ"/>
+                            <constraint firstItem="gUI-ia-0Ge" firstAttribute="top" secondItem="lAW-uI-w1t" secondAttribute="top" constant="42" id="wRl-hL-Qry"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PL4-fv-dRI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uls-fo-hL4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1298.5507246376812" y="81.696428571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wgk-c0-rad">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y00-Bn-Vek" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="slQ-4T-qNU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mB1-6Y-oH5" kind="relationship" relationship="rootViewController" id="PFT-ld-jfX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vB1-44-hns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="389.85507246376812" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+</document>
